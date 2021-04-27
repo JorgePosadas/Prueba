@@ -33,7 +33,7 @@ int main(){
 	
 	else if(accion==1){
 	printf("--------------------------------\n");
-	printf("\n¿Que divisa quieres convertir a MXN?\n");
+	printf("\n¿Qué divisa quieres convertir a MXN?\n");
 	printf("\n1.- Dolar Estadounidense");
 	printf("\n2.- Euro");
 	printf("\n3.- Libra Esterlina\n\n");
@@ -85,7 +85,7 @@ printf("\nNOTA: Los tipos de cambio mostrados son al 22 de Abril de 2021 a las 1
 
 	else if(accion==2){
 	printf("--------------------------------\n");
-	printf("\n¿Que divisa quieres convertir a MXN?\n");
+	printf("\n¿Qué divisa quieres convertir a MXN?\n");
 	printf("\n1.- Dolar Estadounidense");
 	printf("\n2.- Euro");
 	printf("\n3.- Libra Esterlina\n\n");
