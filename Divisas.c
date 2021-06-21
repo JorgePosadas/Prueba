@@ -45,13 +45,11 @@ int main(){
 		printf("\nIntroduce la cantidad de dolares estadounidenses que quieres convertir: ");	
         scanf("%f", &monto);
         break;
-        opciones = 2;
 		case 2:
 		printf("--------------------------------\n");
 		printf("\nIntroduce la cantidad de euros que quieres convertir: ");	
         scanf("%f", &monto);
         break;
-        opciones = 3;
 		case 3:
 		printf("--------------------------------\n");
 		printf("\nIntroduce la cantidad de libras esterlinas que quieres convertir: ");	
@@ -63,17 +61,14 @@ int main(){
 		printf("ERROR: INTRODUCE UNA OPCION VALIDA (1-3)\n");
 }
 	switch(opciones){
-	opciones = 1;
 	case 1:
 		printf("--------------------------------\n");
 		printf("\n%.0f dolares estadounidenses equivalen a $%.2f MXN\n", monto, dolar*monto);
 		break;
-	opciones = 2;
 	case 2:
 		printf("--------------------------------\n");
 		printf("\n%.0f euros equivalen a $%.2f MXN\n", monto, euro*monto);
 		break;
-	opciones = 3;
 	case 3:
 		printf("--------------------------------\n");
 		printf("\n%.0f libras esterlinas equivalen a $%.2f MXN\n", monto, libra*monto);
@@ -97,13 +92,11 @@ printf("\nNOTA: Los tipos de cambio mostrados son al 22 de Abril de 2021 a las 1
 		printf("\nIntroduce la cantidad de pesos que quieres convertir a dolares: ");	
         scanf("%f", &monto);
         break;
-        opciones = 2;
 		case 2:
 		printf("--------------------------------\n");
 		printf("\nIntroduce la cantidad de pesos que quieres convertir a euros: ");	
         scanf("%f", &monto);
         break;
-        opciones = 3;
 		case 3:
 		printf("--------------------------------\n");
 		printf("\nIntroduce la cantidad de pesos que quieres convertir a libras esterlinas: ");	
@@ -116,17 +109,14 @@ printf("\nNOTA: Los tipos de cambio mostrados son al 22 de Abril de 2021 a las 1
 	}
 
 	switch(opciones){
-	opciones = 1;
 	case 1:
 		printf("--------------------------------\n");
 		printf("\n%.0f MXN equivalen a $%.2f dolares\n", monto, monto/dolar);
 		break;
-	opciones = 2;
 	case 2:
 		printf("--------------------------------\n");
 		printf("\n%.0f MXN equivalen a $%.2f euros\n", monto, monto/euro);
 		break;
-	opciones = 3;
 	case 3:
 		printf("--------------------------------\n");
 		printf("\n%.0f MXN equivalen a $%.2f libras\n", monto, monto/libra);
